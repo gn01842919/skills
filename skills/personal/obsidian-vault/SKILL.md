@@ -35,7 +35,7 @@ find "/mnt/d/Obsidian Vault/AI Research/" -name "*.md" | grep -i "keyword"
 grep -rl "keyword" "/mnt/d/Obsidian Vault/AI Research/" --include="*.md"
 ```
 
-Or use Grep/Glob tools directly on the vault path.
+Or use search/listing tools directly on the vault path, preferably `rg` / `rg --files` when available.
 
 ### Create a new note
 
