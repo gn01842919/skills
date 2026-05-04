@@ -170,6 +170,7 @@ General workflow tools, not code-specific.
 
 Tools I keep around but rarely use.
 
+- **[git-guardrails-codex](./skills/misc/git-guardrails-codex/SKILL.md)** - Set up Codex hooks to block dangerous GitHub CLI (`gh`) operations before they execute.
 - **[git-guardrails-claude-code](./skills/misc/git-guardrails-claude-code/SKILL.md)** — Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, etc.) before they execute.
 - **[migrate-to-shoehorn](./skills/misc/migrate-to-shoehorn/SKILL.md)** — Migrate test files from `as` type assertions to @total-typescript/shoehorn.
 - **[scaffold-exercises](./skills/misc/scaffold-exercises/SKILL.md)** — Create exercise directory structures with sections, problems, solutions, and explainers.
