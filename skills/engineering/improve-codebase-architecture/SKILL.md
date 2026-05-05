@@ -57,7 +57,8 @@ Present a numbered list of deepening opportunities. For each candidate:
 
 **ADR conflicts**: if a candidate contradicts an existing ADR, only surface it when the friction is real enough to warrant revisiting the ADR. Mark it clearly (e.g. _"contradicts ADR-0007 — but worth reopening because…"_). Don't list every theoretical refactor an ADR forbids.
 
-Do NOT propose interfaces yet. Ask the user: "Which of these would you like to explore?"
+Do NOT propose interfaces yet. Provide your recommendation on which candidate is most beneficial, and explain why.
+Ask the user: "Which of these would you like to explore?"
 
 ### 3. Grilling loop
 
