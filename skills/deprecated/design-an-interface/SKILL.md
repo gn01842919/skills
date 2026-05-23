@@ -1,6 +1,6 @@
 ---
 name: design-an-interface
-description: Generate multiple radically different interface designs for a module using parallel sub-agents. Use when user wants to design an API, explore interface options, compare module shapes, or mentions "design it twice".
+description: Generate multiple radically different interface designs for a module using a multi-design process. Use when user wants to design an API, explore interface options, compare module shapes, or mentions "design it twice".
 ---
 
 # Design an Interface
@@ -21,22 +21,22 @@ Before designing, understand:
 
 Ask: "What does this module need to do? Who will use it?"
 
-### 2. Generate Designs (Parallel Sub-Agents)
+### 2. Generate Designs
 
-Spawn 3+ sub-agents simultaneously using Task tool. Each must produce a **radically different** approach.
+Produce 3+ designs. If Codex multi-agent tools are available and the user has not constrained you to work solo, use bounded sub-agents in parallel for independent design passes. Otherwise, generate the alternatives yourself from separate constraints. Each design must produce a **radically different** approach.
 
 ```
-Prompt template for each sub-agent:
+Technical brief template for each design or sub-agent:
 
 Design an interface for: [module description]
 
 Requirements: [gathered requirements]
 
-Constraints for this design: [assign a different constraint to each agent]
-- Agent 1: "Minimize method count - aim for 1-3 methods max"
-- Agent 2: "Maximize flexibility - support many use cases"
-- Agent 3: "Optimize for the most common case"
-- Agent 4: "Take inspiration from [specific paradigm/library]"
+Constraints for this design: [assign a different constraint to each design]
+- Design 1: "Minimize method count - aim for 1-3 methods max"
+- Design 2: "Maximize flexibility - support many use cases"
+- Design 3: "Optimize for the most common case"
+- Design 4: "Take inspiration from [specific paradigm/library]"
 
 Output format:
 1. Interface signature (types/methods)
@@ -88,7 +88,7 @@ From "A Philosophy of Software Design":
 
 ## Anti-Patterns
 
-- Don't let sub-agents produce similar designs - enforce radical difference
+- Don't let designs converge on the same shape - enforce radical difference
 - Don't skip comparison - the value is in contrast
 - Don't implement - this is purely about interface shape
 - Don't evaluate based on implementation effort

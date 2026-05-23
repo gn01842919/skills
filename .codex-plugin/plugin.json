@@ -1,0 +1,36 @@
+{
+  "name": "mattpocock-skills",
+  "version": "0.1.0",
+  "description": "Engineering and productivity skills adapted for Codex.",
+  "author": {
+    "name": "Matt Pocock"
+  },
+  "homepage": "https://github.com/mattpocock/skills",
+  "repository": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "engineering",
+    "codex",
+    "workflow"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Matt Pocock Skills",
+    "shortDescription": "Engineering workflows for Codex",
+    "longDescription": "A collection of small, composable engineering and productivity skills adapted for Codex, including diagnosis, TDD, triage, issue planning, architecture review, and grilling workflows.",
+    "developerName": "Matt Pocock",
+    "category": "Engineering",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "websiteURL": "https://github.com/mattpocock/skills",
+    "defaultPrompt": [
+      "Diagnose this bug",
+      "Break this plan into issues",
+      "Improve this codebase architecture"
+    ]
+  }
+}
