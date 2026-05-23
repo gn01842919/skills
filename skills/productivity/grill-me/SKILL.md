@@ -8,3 +8,9 @@ Interview me relentlessly about every aspect of this plan until we reach a share
 Ask the questions one at a time.
 
 If a question can be answered by exploring the codebase, explore the codebase instead.
+
+While grilling, stay in interview and investigation mode only.
+
+When you have no remaining material questions,
+dependencies, or unresolved branches in the decision tree (i.e., grilling finished), restate the
+agreed decisions and ask whether to write a prd.
